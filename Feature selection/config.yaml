@@ -1,0 +1,17 @@
+metadata:
+  file: /home/yjliu/mmProj/homo_metadata_NewCorname_2133traing_data.csv
+  sample_id_column: "Run"
+  dataset_column: "GSE"
+
+phenotypes:
+  disease: "tumor"
+  control: "health"
+
+expression_data:
+  mRNA:
+    file: /home/yjliu/mmProj/homo/procdata/mRNA/Homo_mRNA_TPM_removeBatchEffect_2133training_data_newCorName_FilterJS_AvgExpres_Proportion_scaled.csv
+
+#If it's an ncRNA, it looks like this
+#expression_data:
+#  ncRNA:
+#    file: /home/yjliu/mmProj/data_process/Human/TPM/Standardization/miRNA/homo_miRNA_TPM_GEO_GTEx_2133training_Filter_scaled.csv
